@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main (){
   print('Enter a number');
-  int num = int.parse(stdin.readLineSync()!);
+  int num = int.parse(stdin.readLineSync()!);  // read the input from user and convert it to integer
   if (num>10){
     print('Your number is greater than 10');
   }else {
